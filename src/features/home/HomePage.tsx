@@ -18,7 +18,7 @@ export default function HomePage() {
         <Box display='flex' justifyContent='center' sx={{ p: 1 }}  >
                 <div style={{paddingRight:"10px"}}>
                 <Typography variant='h4'>
-                    Welcome to the store
+                    Welcome to the Shop..!!!
                 </Typography>
                 </div>
                 
