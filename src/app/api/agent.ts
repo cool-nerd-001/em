@@ -74,9 +74,9 @@ const Basket = {
 }
 
 const Account = {
-    login: (values: any) => requests.post('https://activedirectory1827.azurewebsites.net/api/rest/v1/user/login', values),
-    register: (values: any) => requests.post('https://activedirectory1827.azurewebsites.net/api/rest/v1/user/register', values),
-    currentUser: () => requests.get('https://activedirectory1827.azurewebsites.net/api/rest/v1/user/currentuser')
+    login: (values: any) => requests.post('https://identity1827.azurewebsites.net/api/rest/v1/user/login', values),
+    register: (values: any) => requests.post('https://identity1827.azurewebsites.net/api/rest/v1/user/register', values),
+    currentUser: () => requests.get('https://identity1827.azurewebsites.net/api/rest/v1/user/currentuser')
 }
 
 const Orders = {
